@@ -6,11 +6,9 @@ autoload -U compinit
 compinit -u
 
 # prompt
-PROMPT='%m@%n %F{1}%~%f$ '
+PROMPT='%m@%n %F{1}%~%f %% '
 
-##################################################
-### aliases 
-# Git系
+# aliases 
 alias g='git'
 alias gs='git status'
 alias gb='git branch'
@@ -35,26 +33,7 @@ alias gsl='git stash list'
 alias gsu='git stash -u'
 alias gsp='git stash pop'
 
-#vim教
-alias v='vim'
-alias vi='vim'
-#ls系
-alias ls='ls -G'
-alias la='ls -a'
-alias ll='ls -lh'
-#処理確認
-alias rm='rm -i'
-alias mv='mv -i'
-alias cp='cp -i'
-#よく使うコマンド(ゆくゆくはAtoZまで埋めたい！)
-alias c='clear'
-alias h='history'
-#zsh(zshいじる趣味が無いなら要らない)
-alias zsh='vim ~/.zshrc'
-alias szsh='source ~/.zshrc'
-
-##################################################
-### オプション
+# オプション
 
 # 同時に起動しているzshの間でhistoryを共有する
 setopt share_history
