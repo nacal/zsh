@@ -8,10 +8,8 @@ compinit -u
 # prompt
 PROMPT='%m@%n %F{1}%~%f %% '
 
-# コマンド履歴の入力補完
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# aliases 
+##################################################
+### aliases 
 alias g='git'
 alias gs='git status'
 alias gb='git branch'
@@ -36,7 +34,8 @@ alias gsl='git stash list'
 alias gsu='git stash -u'
 alias gsp='git stash pop'
 
-# オプション
+##################################################
+### オプション
 
 # 同時に起動しているzshの間でhistoryを共有する
 setopt share_history
@@ -58,3 +57,9 @@ setopt auto_cd
 
 # コマンドのスペルミスを指摘
 setopt correct
+
+# コマンド履歴の入力補完
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# コマンドのシンタックスハイライト
+source /Users/hikaru/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
