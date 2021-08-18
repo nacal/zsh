@@ -8,6 +8,9 @@ compinit -u
 # prompt
 PROMPT='%m@%n %F{1}%~%f %% '
 
+# コマンド履歴の入力補完
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # aliases 
 alias g='git'
 alias gs='git status'
