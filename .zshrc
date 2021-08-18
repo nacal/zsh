@@ -6,7 +6,7 @@ autoload -U compinit
 compinit -u
 
 # prompt
-PROMPT='%m@%n %F{1}%~%f %% '
+PROMPT='%F{3}%m%  %F{1}%~%f %# '
 
 ##################################################
 ### aliases 
