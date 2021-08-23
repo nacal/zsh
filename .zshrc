@@ -16,11 +16,11 @@ alias gb='git branch'
 alias gcl= 'git clone'
 alias gcm='git commit'
 alias gco='git checkout'
+alias gcom='git checkout main'
 alias gg='git grep'
 alias ga='git add'
 alias gd='git diff'
 alias gl='git log'
-alias gcma='git checkout master'
 alias gfu='git fetch upstream'
 alias gfo='git fetch origin'
 alias gmod='git merge origin/develop'
@@ -39,6 +39,10 @@ alias gst='git stash'
 alias gsl='git stash list'
 alias gsu='git stash -u'
 alias gsp='git stash pop'
+
+alias ya='yarn add'
+alias yd='yarn dev'
+alias yi='yarn install'
 
 ##################################################
 ### オプション
