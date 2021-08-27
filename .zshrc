@@ -43,6 +43,7 @@ alias gsp='git stash pop'
 alias ya='yarn add'
 alias yd='yarn dev'
 alias yi='yarn install'
+alias yi='yarn start'
 
 ##################################################
 ### オプション
